@@ -1,0 +1,240 @@
+/* common use style */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    border: none;
+    padding: 20px 43px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.common-section {
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.title-description {
+    color: rgba(39, 39, 39, 60%);
+    font-size: 18px;
+}
+
+span {
+    color: #E55473;
+}
+
+
+
+/* header related style */
+.banner {
+    background-color: rgba(229, 84, 115, 10%);
+    display: flex;
+}
+
+.heading {
+    margin: 180px 50px 4px 180px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 75px;
+    margin-bottom: 0;
+}
+
+.heading-description {
+    color: rgba(39, 39, 39, 60%);
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.banner-flower {
+    height: 800px;
+    width: 635px;
+    margin-right: 180px;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+
+
+/* Featured flower related style */
+.featured-flower-section {
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+
+
+/* support section */
+.support-section {
+    display: flex;
+    background-color: rgba(39, 39, 39, 5%);
+    margin: 130px 130px 0 130px;
+    height: 310px;
+}
+
+.delivery-day {
+    margin: 80px 0px 30px 160px;
+    padding-right: 80px;
+}
+
+.fresh-flower {
+    margin: 80px 0px 30px 30px;
+    padding-right: 80px;
+}
+
+.free-support {
+    margin: 80px 0px 30px 40px;
+    padding-right: 80px;
+}
+
+.support-section-image1 {
+    margin-left: 140px;
+}
+
+.support-section-image2 {
+    margin-left: 120px;
+}
+
+.support-section-image3 {
+    margin-left: 50px;
+}
+
+.caption {
+    font-size: 24px;
+    color: rgba(39, 39, 39, 80%);
+    font-weight: lighter;
+}
+
+
+
+/* hot deal related style */
+.hot-deal {
+    display: flex;
+    background-color: rgba(229, 84, 115, 5%);
+    margin-top: 130px;
+    padding: 100px 100px 100px 180px;
+}
+
+.hot-deal-section {
+    padding: 100px 160px 0 160px;
+}
+
+.hot-deal-heading {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 60%);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hot-deal-flower {
+    margin-right: 200px;
+}
+
+.hot-deal-button {
+    margin-left: 230px;
+}
+
+
+
+/* Instagram Section related style */
+.instagram-flower-section {
+    display: flex;
+    margin-left: 130px;
+}
+
+.insta-image {
+    margin: 40px 12px 20px 12px;
+}
+
+
+
+/* Latest deals related section */
+.latest-deal {
+    background-image: url('../flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin-left: 142px;
+    height: 450px;
+    margin-bottom: 130px;
+    margin-top: 110px;
+}
+
+.latest-deal-header {
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 450px;
+    margin-right: 550px;
+}
+
+.subscribe-section {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 300px;
+}
+
+::placeholder {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#email {
+    margin-right: 30px;
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+/* footer related style */
+.footers {
+    background-color: black;
+    color: white;
+    height: 380px;
+    padding-top: 18px;
+
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.title-description-footer {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 60%);
+}
+
+footer {
+    color: rgba(255, 255, 255, 40%);
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
