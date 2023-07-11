@@ -8,31 +8,30 @@ body {
 .btn-primary {
     background-color: #E55473;
     border: none;
-    padding: 20px 43px;
+    padding: 15px 35px;
     color: white;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
     border-radius: 8px;
 }
 
 .common-section {
     align-items: center;
     text-align: center;
-    margin-top: 120px;
-    margin-left: 550px;
-    margin-right: 550px;
+    margin-top: 70px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 .title {
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     margin-bottom: 0;
 }
 
 .title-description {
     color: rgba(39, 39, 39, 60%);
-    font-size: 18px;
+    font-size: 14px
 }
 
 span {
@@ -45,28 +44,28 @@ span {
 .banner {
     background-color: rgba(229, 84, 115, 10%);
     display: flex;
+    width: 100vw;
 }
 
 .heading {
-    margin: 180px 50px 4px 180px;
+    margin: 100px 200px 4px 200px;
 }
 
 .banner-title {
     color: #272727;
-    font-size: 75px;
+    font-size: 45px;
     margin-bottom: 0;
 }
 
 .heading-description {
     color: rgba(39, 39, 39, 60%);
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .banner-flower {
-    height: 800px;
-    width: 635px;
+    height: 500px;
     margin-right: 180px;
     margin-top: 35px;
     margin-bottom: 0;
@@ -87,39 +86,40 @@ span {
 .support-section {
     display: flex;
     background-color: rgba(39, 39, 39, 5%);
-    margin: 130px 130px 0 130px;
-    height: 310px;
+    margin: 0px 200px 0 200px;
+    height: 270px;
+    padding-left: 20px;
 }
 
 .delivery-day {
-    margin: 80px 0px 30px 160px;
-    padding-right: 80px;
+    margin: 70px 0px 30px 50px;
+    padding-right: 20px;
 }
 
 .fresh-flower {
-    margin: 80px 0px 30px 30px;
-    padding-right: 80px;
+    margin: 70px 0px 30px 50px;
+    padding-right: 50px;
 }
 
 .free-support {
-    margin: 80px 0px 30px 40px;
+    margin: 70px 0px 30px 50px;
     padding-right: 80px;
 }
 
 .support-section-image1 {
-    margin-left: 140px;
+    margin-left: 90px;
 }
 
 .support-section-image2 {
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .support-section-image3 {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .caption {
-    font-size: 24px;
+    font-size: 16px;
     color: rgba(39, 39, 39, 80%);
     font-weight: lighter;
 }
@@ -130,33 +130,36 @@ span {
 .hot-deal {
     display: flex;
     background-color: rgba(229, 84, 115, 5%);
-    margin-top: 130px;
-    padding: 100px 100px 100px 180px;
+    margin-top: 100px;
+    padding-left: 60px;
+    padding-top: 35px;
 }
 
 .hot-deal-section {
-    padding: 100px 160px 0 160px;
+    padding: 60px 70px 100px 220px;
 }
 
 .hot-deal-heading {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     text-align: center;
 }
 
 .hot-deal-description {
     color: rgba(39, 39, 39, 60%);
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .hot-deal-flower {
-    margin-right: 200px;
+    padding-top: 25px;
+    height: 280px;
+    margin-right: 300px;
 }
 
 .hot-deal-button {
-    margin-left: 230px;
+    margin-left: 180px;
 }
 
 
@@ -164,7 +167,9 @@ span {
 /* Instagram Section related style */
 .instagram-flower-section {
     display: flex;
-    margin-left: 130px;
+    height: 310px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .insta-image {
@@ -175,25 +180,24 @@ span {
 
 /* Latest deals related section */
 .latest-deal {
-    background-image: url('../flower Asset/Rectangle\ 9.png');
+    background-image: url('..//Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
-    margin-left: 142px;
-    height: 450px;
-    margin-bottom: 130px;
-    margin-top: 110px;
+    background-size: cover;
+    margin: 80px 200px 80px 200px;
+    height: 350px;
 }
 
 .latest-deal-header {
     text-align: center;
-    padding-top: 80px;
-    margin-left: 450px;
-    margin-right: 550px;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 70px;
 }
 
 .subscribe-section {
     display: flex;
     margin-top: 50px;
-    padding-left: 300px;
+    padding-left: 180px;
 }
 
 ::placeholder {
@@ -202,9 +206,9 @@ span {
 }
 
 #email {
-    margin-right: 30px;
-    width: 700px;
-    height: 64px;
+    margin-right: 20px;
+    width: 450px;
+    height: 45px;
     border: none;
     border-radius: 8px;
 }
@@ -217,24 +221,26 @@ span {
     background-color: black;
     color: white;
     height: 380px;
-    padding-top: 18px;
+    padding-top: 20px;
 
 }
 
 .footer-title {
-    font-size: 48px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 0;
+    margin-top: 100px;
 }
 
 .title-description-footer {
-    font-size: 18px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 60%);
 }
 
 footer {
     color: rgba(255, 255, 255, 40%);
-    font-size: 14px;
+    font-size: 12px;
     align-items: center;
     text-align: center;
+    margin-top: 30px;
 }
