@@ -13,7 +13,22 @@
 </head>
 
 <body>
-    <header>
+
+    <!-- Navigation Bar -->
+
+    <section class="navbar">
+        <h3>Flower <span>Shop</span></h3>
+        <ul>
+            <li><a href="#top-banner">Home</a></li>
+            <li><a href="#featured">Featured Flower</a></li>
+            <li><a href="#instagram">Instagram</a></li>
+            <li><a href="#latest">Latest Deals</a></li>
+        </ul>
+    </section>
+
+    <!-- Top Banner -->
+
+    <header id="top-banner">
         <section class="banner">
             <section class="heading">
                 <h1 class="banner-title">Let's make beautiful flowers a part of your life.</h1>
@@ -31,7 +46,7 @@
     </header>
     <main>
         <!-- Featured Flower Section -->
-        <section>
+        <section id="featured">
             <header class="common-section">
                 <h3 class="title">Our Featured Flowers</h3>
                 <p class="title-description">It is a long established fact that a reader will be
@@ -42,25 +57,27 @@
                 </p>
             </header>
             <main>
-                <section class="featured-flower-section">
-                    <figure>
-                        <div class="flowers-background">
-                            <img class="featured-flower-image1" src="Flower Asset/pngwing 6.png"
-                                alt="featured-flower-image1">
+                <div class="featured-box">
+                    <div class="featured-container">
+                        <div class="featured-item" style="background-color: #FFCCCB">
+                            <img src="Flower Asset/pngwing 6.png" alt="">
                         </div>
                         <figcaption>Pink Flower Tree</figcaption>
-                    </figure>
-                    <figure class="flowers-background">
-                        <img class="featured-flower-image2" src="Flower Asset/pngwing 5.png"
-                            alt="featured-flower-image2">
+                    </div>
+
+                    <div class="featured-container">
+                        <div class="featured-item" style="background-color: #C1D8F0">
+                            <img src="Flower Asset/pngwing 5.png" alt="">
+                        </div>
                         <figcaption>Pink Flower Tree</figcaption>
-                    </figure>
-                    <figure class="flowers-background">
-                        <img class="featured-flower-image3" src="Flower Asset/pngwing 7.png"
-                            alt="featured-flower-image3">
+                    </div>
+                    <div class="featured-container">
+                        <div class="featured-item" style="background-color: #C8D89D">
+                            <img src="Flower Asset/pngwing 7.png" alt="">
+                        </div>
                         <figcaption>Pink Flower Tree</figcaption>
-                    </figure>
-                </section>
+                    </div>
+                </div>
             </main>
         </section>
 
@@ -99,7 +116,7 @@
 
 
         <!-- Instagram Section -->
-        <section>
+        <section id="instagram">
             <header class="common-section">
                 <h3 class="title">Instagram</h3>
                 <p class="title-description">It is a long established fact that a reader will be distracted by the
@@ -117,7 +134,7 @@
 
 
         <!-- Latest Deals Section -->
-        <section class="latest-deal">
+        <section id="latest" class="latest-deal">
             <section>
                 <header class="latest-deal-header">
                     <h3 class="title">Get The Latest Deals</h3>
