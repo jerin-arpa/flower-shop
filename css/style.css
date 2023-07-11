@@ -38,7 +38,38 @@ span {
     color: #E55473;
 }
 
+/* Navigation Bar */
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 50px;
+    background-color: white;
+    color: #E55473;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 20px;
+}
+.navbar ul li{
+    padding-right: 40px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #E55473;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.navbar ul li a:hover{
+    background-color: #E55473;
+    color: white;
+}
+
+.navbar span{
+    color: #575757;
+}
 
 /* header related style */
 .banner {
@@ -78,6 +109,32 @@ span {
     display: flex;
     margin-left: 180px;
     margin-right: 180px;
+}
+
+.featured-box{
+    display: flex;
+    width: 90%;
+    margin: 50px 5%;
+    justify-content: center;
+}
+
+.featured-container{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.featured-item{
+    text-align: center;
+    width: 320px;
+    height: 380px;
+    padding: 80px 50px 0 50px;
+    margin: 10px 15px;
+    border-radius: 50% 50% 0 0 ;
+ 
+}
+.featured-item img{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
